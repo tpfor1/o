@@ -1,0 +1,16 @@
+-Systems Folder To Support Mac And Windows
+-Add Voice Text To Speech
+-Add Speech To Text
+-Add LLM deciding module
+-Add "Welcome Home, Sir"
+-Add "Good Morning, Sir"
+-Add "Wake Up Daddy's home"
+
+
+Eventually
+-LICENSE file
+-examples
+-scripts
+-contributors.md
+-.github
+-tests
