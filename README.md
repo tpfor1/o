@@ -8,3 +8,8 @@ Page Missing Error :P
 
 
 "I'm very bad at spontaneous things"-Aryan Class Representative
+
+# Nameless
+Virtual Agent, How May I help you?
+"I Got Scammed"
+Great!
