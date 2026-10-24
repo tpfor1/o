@@ -1,4 +1,4 @@
-Ello! So this is my attempt at making a Fully Autonomous Assistant/Butler
+Ello! So this is my attempt at making a Fully Autonomous Assistant/Butler, Jarvis Basically
 
 I have a lot of ideas, so lets see where this goes!
 
