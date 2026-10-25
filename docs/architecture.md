@@ -23,4 +23,4 @@ addition of new features should be hassle free
 
 -I'll try to handle all the edge cases, but any Exceptions must be clear. no silent failures
 
--It's Personality and Name Should be customizable
+-It's Personality and Name Should be easily customizable
