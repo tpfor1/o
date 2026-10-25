@@ -37,16 +37,24 @@ coverage.xml
 .nox/
 
 # --- Nameless local runtime data ---
-# (user data normally lives in platformdirs locations, but just in case)
 *.log
-logs/
-data/
-models/
-cache/
-recordings/
+/logs/
+/data/
+/models/
+/cache/
+/recordings/
 *.sqlite
 *.sqlite3
 *.db
+
+# --- Editors / IDEs ---
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
 
 # --- Large model files ---
 *.gguf
@@ -54,14 +62,6 @@ recordings/
 *.bin
 *.pt
 *.safetensors
-
-# --- Editors / IDEs ---
-.vscode/
-!.vscode/extensions.json
-.idea/
-*.swp
-*.swo
-*~
 
 # --- macOS ---
 .DS_Store
