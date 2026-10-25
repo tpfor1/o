@@ -30,7 +30,6 @@ dependencies = [
     "python-dotenv>=1.0",
     "sounddevice>=0.4",
     # OS-specific dependencies (only installed on the matching OS)
-    "pyobjc-framework-Cocoa>=10.0; sys_platform == 'darwin'",
     "pywin32>=306; sys_platform == 'win32'",
 ]
 

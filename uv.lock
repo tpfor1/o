@@ -991,7 +991,6 @@ version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "platformdirs" },
-    { name = "pyobjc-framework-cocoa", marker = "sys_platform == 'darwin'" },
     { name = "python-dotenv" },
     { name = "pywin32", marker = "sys_platform == 'win32'" },
     { name = "sounddevice" },
@@ -1038,7 +1037,6 @@ requires-dist = [
     { name = "ollama", marker = "extra == 'ollama'", specifier = ">=0.3" },
     { name = "openai", marker = "extra == 'openai'", specifier = ">=1.50" },
     { name = "platformdirs", specifier = ">=4.0" },
-    { name = "pyobjc-framework-cocoa", marker = "sys_platform == 'darwin'", specifier = ">=10.0" },
     { name = "python-dotenv", specifier = ">=1.0" },
     { name = "pyttsx3", marker = "extra == 'tts'", specifier = ">=2.90" },
     { name = "pywin32", marker = "sys_platform == 'win32'", specifier = ">=306" },
