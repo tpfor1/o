@@ -7,6 +7,7 @@ each OS impliments the contract in base.py."""
 import sys
 from functools import lru_cache
 
+from nameless.errors import UnsupportedPlatformError
 from nameless.system.base import System
 
 __all__ = ["System", "get_system"]
@@ -19,15 +20,15 @@ def get_system() -> System:
         from nameless.system.macos import MacOSSystem
 
         return MacOSSystem()
-
     if sys.platform == "win32":
         from nameless.system.windows import WindowsSystem
 
         return WindowsSystem()
-
     if sys.platform.startswith("linux"):
         from nameless.system.linux import LinuxSystem
 
         return LinuxSystem()
-
-    raise RuntimeError(f"Unsupported platform: {sys.platform}")
+    raise UnsupportedPlatformError(
+        f"Nameless has no backend for this operating system ({sys.platform}).",
+        hint="Supported systems are macOS, Windows, and Linux.",
+    )

@@ -47,8 +47,8 @@ all = [
 [project.scripts]
 nameless = "nameless.cli:main"
 
-# Future: third-party skills can register themselves via entry points, e.g.
-# [project.entry-points."nameless.skills"]
+# Future: third-party fun can register themselves via entry points, e.g.
+# [project.entry-points."nameless.fun"]
 # my_skill = "nameless_skill_mine:MySkill"
 
 [project.urls]
