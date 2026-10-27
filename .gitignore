@@ -38,10 +38,11 @@ coverage.xml
 
 # --- Nameless local runtime data ---
 *.log
-/logs/
+/logs/*
 /data/
 /models/
 /cache/
+src/nameless/memory/
 /recordings/
 *.sqlite
 *.sqlite3
