@@ -27,7 +27,7 @@ classifiers = [
 
 # Core dependencies
 dependencies = [
-    "platformdirs>=4.0",
+    "platformdirs>=4.14.5",
     "python-dotenv>=1.0",
     "sounddevice>=0.4",
     # OS-specific dependencies (only installed on the matching OS)
@@ -35,8 +35,8 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-anthropic = ["anthropic>=0.40"]
-openai = ["openai>=1.50"]
+anthropic = ["anthropic>=2.5.0"]
+openai = ["openai>=3.46.0"]
 ollama = ["ollama>=0.3"]
 stt = ["faster-whisper>=1.0"]      # local speech-to-text
 tts = ["pyttsx3>=2.90"]            # basic cross-platform text-to-speech
@@ -58,10 +58,10 @@ Issues = "https://github.com/itstpfor1/nameless/issues"
 # uv-style dev dependencies (installed by default with `uv sync`)
 [dependency-groups]
 dev = [
-    "pytest>=8.0",
+    "pytest>=9.2.0",
     "pytest-cov>=5.0",
-    "ruff>=0.6",
-    "mypy>=1.11",
+    "ruff>=0.17.3",
+    "mypy>=2.4.1",
     "pre-commit>=4.7.0",
 ]
 
